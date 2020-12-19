@@ -1,0 +1,15 @@
+.add {
+    
+    padding-left: 260px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    
+}
+
+.table th, .table td {
+    padding: 0.5rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+

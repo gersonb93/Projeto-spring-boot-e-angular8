@@ -1,0 +1,40 @@
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" [hidden]="esconderBarrar()">
+        <mat-sidenav-container class="container">
+            <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="74">
+                <mat-nav-list class="nav-list">
+                    <a mat-list-item routerLink="/home">
+                        <i class="material-icons">
+                            home
+                        </i>
+                        Inicio
+                    </a>
+                    <a mat-list-item routerLink="/userList">
+                        <i class="material-icons">
+                            storefront
+                        </i>
+                        Usuarios
+                    </a>
+                    <a mat-list-item routerLink="/userReport">
+                        <i class="material-icons">
+                            storefront
+                        </i>
+                        Relatorio
+                    </a>
+                    <a mat-list-item routerLink="/chart">
+                        <i class="material-icons">
+                            storefront
+                        </i>
+                        Grafico Salario
+                    </a>
+                    <a mat-list-item routerLink="/upload">
+                        <i class="material-icons">
+                            storefront
+                        </i>
+                        Upload
+                    </a>
+                </mat-nav-list>
+            </mat-sidenav>
+           
+        </mat-sidenav-container>
+    </nav>

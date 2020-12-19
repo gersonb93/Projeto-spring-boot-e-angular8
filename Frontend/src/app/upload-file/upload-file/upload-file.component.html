@@ -1,0 +1,14 @@
+<mat-card class="upload mat-elevation-z3">
+<div style="margin-top: 10px;" class="painel" id="painel">
+	<div class="custom-file">
+		<input type="file" class="custom-file-input" id="customFile" (change)="onChange($event)">
+		<label class="custom-file-label" for="customFile" id="customFileLabel">Selecionar Arquivo</label>
+	</div>
+
+
+	<div style="margin-top: 10px;">
+		<button type="button" class="btn btn-primary" (click)="onUpload()" [disabled]="!files">Upload</button>
+
+	</div>
+</div>
+</mat-card>

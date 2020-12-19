@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #f1ecec;
+
+}
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header .logo {
+    max-height: 70px;
+    width: 70px;
+
+}
+.header .title-home{
+    padding-left: 25px;
+    
+}
+.header .title-group i {
+    padding-right: 5px;
+    margin: inherit;
+}
+.header .title-sair {
+
+    padding-left: 15px;
+    display: flex;
+    
+}
